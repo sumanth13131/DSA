@@ -25,7 +25,8 @@ int main(){
       }
       else{
         cout<<arr[i]<<" "<<arr[l]<<" "<<arr[r]<<endl;
-        break;
+        l++;
+        r--;
       }
     }
   }
